@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "/Users/tshirt/Desktop/mulunch-lp/styles/Home.module.css";
+import styles from "../styles/Home.modules.css";
 import { Header } from "../components/Header";
 import { Footer } from "../components/Footer";
 import { Top } from "../components/Top";

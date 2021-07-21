@@ -1,4 +1,4 @@
-import styles from "/Users/tshirt/Desktop/mulunch-lp/styles/Home.module.css";
+import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 

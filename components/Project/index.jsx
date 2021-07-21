@@ -1,4 +1,4 @@
-import styles from "/Users/tshirt/Desktop/mulunch-lp/styles/Home.module.css";
+import styles from "../Project/Project.module.css";
 
 export const Project = () => {
   return (

@@ -1,4 +1,5 @@
-import styles from "/Users/tshirt/Desktop/mulunch-lp/styles/Home.module.css";
+import styles from "../Topic/Topic.module.css";
+
 
 export const Topic = () => {
   return (
