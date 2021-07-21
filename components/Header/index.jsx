@@ -1,4 +1,4 @@
-import styles from "../Header/Header.module.css";
+import styles from "../Header/index.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,56 +7,56 @@ export const Header = ()  => {
       <header className={styles.header}>
         <h1>
           <Link href="/">
-            <a>
+            <a className={styles.a}>
               <Image
                 src="/favicon.ico"
                 alt="mulunch logo"
-                width="50px"
-                height="50px"
+                width={50}
+                height={50}
               />
             </a>
           </Link>
         </h1>
         <nav>
-          <ul className={styles.header}>
-            <li>
+          <ul className={styles.ul}>
+            <li className={styles.li}>
               <Link href="#">
-                <a>CONCEPT</a>
+                <a className={styles.a}>CONCEPT</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>PROJECTS</a>
+                <a className={styles.a}>PROJECTS</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>TOPICS</a>
+                <a className={styles.a}>TOPICS</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>VILLAGE</a>
+                <a className={styles.a}>VILLAGE</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>LUNCH</a>
+                <a className={styles.a}>LUNCH</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>GARLLERY</a>
+                <a className={styles.a}>GARLLERY</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>ACCESS</a>
+                <a className={styles.a}>ACCESS</a>
               </Link>
             </li>
-            <li>
+            <li className={styles.li}>
               <Link href="#">
-                <a>JOIN</a>
+                <a className={styles.a}>JOIN</a>
               </Link>
             </li>
           </ul>

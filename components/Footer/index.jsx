@@ -7,12 +7,12 @@ export const Footer = () => {
       <footer className={styles.footer}>
         <ul className={styles.footer}>
           <li>
-            <a>
+            <a className={styles.a}>
               <Image
                 src="/favicon.ico"
                 alt="mulunch logo"
-                width="50px"
-                height="50px"
+                width={50}
+                height={50}
               />
             </a>
           </li>

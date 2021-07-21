@@ -2,7 +2,7 @@ import styles from "../Access/Access.module.css";
 
 export const Access = () => {
   return (
-    <section className={styles.main}>
+    <section className={styles.section}>
       Access
     </section>
   );

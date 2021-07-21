@@ -1,16 +1,25 @@
-.footer {
+.header {
   height: 100px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #dddddd;
+  border-radius: 15px;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .ul {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.li {
+  padding: 0 5px;
 }
 .a {
   display: flex;
