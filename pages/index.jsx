@@ -23,19 +23,19 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
         <Header />
-        <Top />
-        <Concept />
-        <Project />
-        <Topic />
-        <Village />
-        <Lunch />
-        <Gallery />
-        <Access />
-        <Join />
+        <main>
+          <Top />
+          <Concept />
+          <Project />
+          <Topic />
+          <Village />
+          <Lunch />
+          <Gallery />
+          <Access />
+          <Join />
+        </main>
         <Footer />
-      </main>
-    </div>
+      </div>
   );
 }

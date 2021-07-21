@@ -1,24 +1,24 @@
-import styles from "../Header/index.module.css";
+import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 export const Header = ()  => {
   return (
       <header className={styles.header}>
-        <h1>
-          <Link href="/">
-            <a className={styles.a}>
-              <Image
-                src="/favicon.ico"
-                alt="mulunch logo"
-                width={50}
-                height={50}
-              />
-            </a>
-          </Link>
-        </h1>
-        <nav>
+        <nav className={styles.nav}>
           <ul className={styles.ul}>
+            <h1>
+              <Link href="/">
+                <a className={styles.a}>
+                  <Image
+                    src="/favicon.ico"
+                    alt="mulunch logo"
+                    width={50}
+                    height={50}
+                  />
+                </a>
+              </Link>
+            </h1>
             <li className={styles.li}>
               <Link href="#">
                 <a className={styles.a}>CONCEPT</a>
@@ -56,7 +56,7 @@ export const Header = ()  => {
             </li>
             <li className={styles.li}>
               <Link href="#">
-                <a className={styles.a}>JOIN</a>
+                <a className={styles.join}>JOIN</a>
               </Link>
             </li>
           </ul>
