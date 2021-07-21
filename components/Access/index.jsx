@@ -1,4 +1,4 @@
-import styles from "./Access/Access.module.css";
+import styles from "../Access/Access.module.css";
 
 export const Access = () => {
   return (
