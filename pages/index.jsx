@@ -21,7 +21,7 @@ export default function Home() {
           name="description"
           content="食や地方について楽しく学べるコミュニティ、「むらんち」です。"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/mulunch_favi.ico" />
       </Head>
         <Header />
         <main>

@@ -11,9 +11,9 @@ export const Header = ()  => {
               <Link href="/">
                 <a className={styles.a}>
                   <Image
-                    src="/favicon.ico"
+                    src="/mulunch_logo.png"
                     alt="mulunch logo"
-                    width={50}
+                    width={100}
                     height={50}
                   />
                 </a>
