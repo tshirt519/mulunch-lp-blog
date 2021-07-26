@@ -4,12 +4,13 @@ import Image from "next/image";
 export const Top = () => {
   return (
     <section className={styles.section}>
-      <Image
+      <Image className={styles.Image}
         src="/TV-6.jpg"
         alt="top visual"
         width={1680}
-        height={1100}
-        className={styles.Image}
+        height={1074}
+        objectPosition="center" 
+        objectFit="cover"
       ></Image>
     </section>
   );
