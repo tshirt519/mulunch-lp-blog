@@ -25,7 +25,6 @@
 .logo {
   margin-top: 5px;
 }
-
 .a {
   display: flex;
   font-weight: bold;
@@ -52,9 +51,9 @@
 }
 .sns_link {
   margin: 0 5px;
-  background: #fff;
+  background: #ddd;
   border-radius: 50%;
-  opacity: 0.6;
+  opacity: 0.5;
   display: flex;
   justify-content: center;
   align-items: center;

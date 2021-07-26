@@ -5,20 +5,20 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
-      <ul className={styles.footer}>
-        <li>
-          <a className={styles.a}>
+      <ul className={styles.ul}>
+        <li className={styles.li}>
+          <a>
             <Image
               src="/mulunch_logo.png"
               alt="mulunch logo"
-              width={100}
-              height={50}
+              width={150}
+              height={75}
             />
           </a>
         </li>
-        <li>
+        <li className={styles.sns_link}>
           <Link href="http://twitter.com">
-            <a className={styles.sns_link}>
+            <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -30,7 +30,7 @@ export const Footer = () => {
             </a>
           </Link>
           <Link href="http://instagram.com">
-            <a className={styles.sns_link}>
+            <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -42,7 +42,7 @@ export const Footer = () => {
             </a>
           </Link>
           <Link href="http://facebook.com">
-            <a className={styles.sns_link}>
+            <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -54,8 +54,12 @@ export const Footer = () => {
             </a>
           </Link>
         </li>
-        <li>
+
+        <li className={styles.li}>
           <p className={styles.mulunch_font}>むらんち</p>
+          <p>〒 162-0825 東京都新宿区神楽坂6丁目19</p>
+          <p>TEL 03-6457-5597</p>
+          <p>11:30-14:30 (LO 14:00)</p>
           <small>©︎ Muramusubi</small>
         </li>
       </ul>

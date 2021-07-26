@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 0 2px rgb(0 0 0 / 30%);
+  border-top: 3px solid #eee;
+  padding: 0 100px;
 }
 .ul {
   width: 100%;
@@ -12,13 +13,43 @@
   justify-content: space-between;
   align-items: center;
 }
-.a {
+.li {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+}
+.sns_link {
+  opacity: 0.5;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.sns_link a {
+  margin: 0 5px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ddd;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.sns_link a svg {
+  margin-left: 2px;
 }
 
-.sns_link {
-  margin: 0 10px;
+.li p,
+.li small {
+  display: block;
+  text-align: end;
+  margin-right: 75px;
+}
+.li small {
+  opacity: 0.6;
 }
 .mulunch_font {
-  font-family: 'TsukuBRdGothic-Regular',sans-serif;
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
+  font-size: 18px;
 }
