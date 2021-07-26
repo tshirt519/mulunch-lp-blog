@@ -1,3 +1,16 @@
 .section {
-  height: 1200px
+  height: 1200px;
+  position: relative;
+}
+
+.div {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 5;
+  text-align: center;
+  color: #fff;
+  opacity: 0.8;
 }
