@@ -22,6 +22,10 @@
   justify-content: space-around;
   align-items: center;
 }
+.logo {
+  margin-top: 5px;
+}
+
 .a {
   display: flex;
   font-weight: bold;
@@ -31,4 +35,37 @@
   background: #de9044;
   padding: 10px 50px;
   border-radius: 50px;
+}
+/* snsのナビゲーションバー */
+.sns_nav {
+  height: 50px;
+  width: 90%;
+  position: fixed;
+  z-index: 5;
+  top: 18%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.sns_link {
+  margin: 0 5px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.sns_link a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.sns_link a svg {
+  margin-left: 2px;
 }

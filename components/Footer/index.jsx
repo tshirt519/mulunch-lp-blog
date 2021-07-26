@@ -18,8 +18,8 @@ export const Footer = () => {
         </li>
         <li>
           <Link href="http://twitter.com">
-            <a>
-              <svg className={styles.sns_link}
+            <a className={styles.sns_link}>
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -30,8 +30,8 @@ export const Footer = () => {
             </a>
           </Link>
           <Link href="http://instagram.com">
-            <a>
-              <svg className={styles.sns_link}
+            <a className={styles.sns_link}>
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -42,8 +42,8 @@ export const Footer = () => {
             </a>
           </Link>
           <Link href="http://facebook.com">
-            <a>
-              <svg className={styles.sns_link}
+            <a className={styles.sns_link}>
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -55,9 +55,7 @@ export const Footer = () => {
           </Link>
         </li>
         <li>
-          <p className={styles.mulunch_font}>
-            むらんち
-          </p>
+          <p className={styles.mulunch_font}>むらんち</p>
           <small>©︎ Muramusubi</small>
         </li>
       </ul>
