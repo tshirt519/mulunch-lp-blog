@@ -18,6 +18,10 @@
   justify-content: center;
   text-align: center;
 }
+.logo {
+  display: block;
+  margin-top: 15px;
+}
 .sns_link {
   opacity: 0.5;
   display: flex;

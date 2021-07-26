@@ -7,7 +7,7 @@ export const Footer = () => {
     <footer className={styles.footer}>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <a>
+          <a className={styles.logo}>
             <Image
               src="/mulunch_logo.png"
               alt="mulunch logo"
