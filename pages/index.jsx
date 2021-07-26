@@ -23,19 +23,19 @@ export default function Home() {
         />
         <link rel="icon" href="/mulunch_favi.ico" />
       </Head>
-        <Header />
-        <main>
-          <Top />
-          <Concept />
-          <Project />
-          <Topic />
-          <Village />
-          <Lunch />
-          <Gallery />
-          <Access />
-          <Join />
-        </main>
-        <Footer />
-      </div>
+      <Header />
+      <main>
+        <Top />
+        <Concept />
+        <Project />
+        <Topic />
+        <Village />
+        <Lunch />
+        <Gallery />
+        <Access />
+        <Join />
+      </main>
+      <Footer />
+    </div>
   );
 }
