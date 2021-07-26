@@ -1,4 +1,5 @@
 .section {
-  height: 1100px;
+  max-width: 1680px;
+  height: 1078px;
   overflow: hidden;
 }

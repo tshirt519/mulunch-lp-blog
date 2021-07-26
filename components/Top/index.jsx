@@ -7,8 +7,8 @@ export const Top = () => {
       <Image
         src="/TV-6.jpg"
         alt="top visual"
-        width={1680}
-        height={1200}
+        width={3320}
+        height={2200}
         className={styles.Image}
       ></Image>
     </section>
