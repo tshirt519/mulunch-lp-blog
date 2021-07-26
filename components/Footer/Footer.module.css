@@ -18,10 +18,12 @@
   justify-content: center;
   text-align: center;
 }
+/* 左logo */
 .logo {
   display: block;
   margin-top: 15px;
 }
+/* 中央リンク */
 .sns_link {
   opacity: 0.5;
   display: flex;
@@ -44,7 +46,7 @@
 .sns_link a svg {
   margin-left: 2px;
 }
-
+/* 右info */
 .li p,
 .li small {
   display: block;
