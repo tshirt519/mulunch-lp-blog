@@ -1,3 +1,27 @@
 .section {
-  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+.div {
+  flex: 1;
+  text-align: center;
+}
+.mulunch_font {
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
+  font-size: 60px;
+  color: #6e6d6e;
+  margin: 100px 0 50px;
+}
+.concept {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6e6d6e;
+  margin: 50px 0 0;
+}
+.concept p {
+  margin: 25px 0 0 0;
+}
+.concept_logo {
+  filter: invert(30%) sepia(100%) saturate(405%) hue-rotate(30deg)
+    brightness(90%) contrast(100%);
 }
