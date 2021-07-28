@@ -11,7 +11,7 @@
   z-index: 5;
   text-align: center;
   color: #fff;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 .svg {
   filter: brightness(1) invert(1);
