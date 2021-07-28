@@ -38,15 +38,15 @@
   margin-top: 100px;
   display: grid;
   grid-template:
-    "...... upper1 ...... upper2 ...... upper3 ......" 300px
-    / auto 300px 50px 300px 50px 300px auto;
+    "...... upper1 ...... upper2 ...... upper3 ......" 400px
+    / auto 400px 50px 400px 50px 400px auto;
 }
 
 .grid_lower {
   display: grid;
   grid-template:
-    "...... lower1 ...... lower2 ......" 300px
-    / auto 300px 50px 300px auto;
+    "...... lower1 ...... lower2 ......" 400px
+    / auto 400px 50px 400px auto;
 }
 
 .upper1 {
