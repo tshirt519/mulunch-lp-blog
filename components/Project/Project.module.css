@@ -1,3 +1,50 @@
 .section {
-  height: 200px;
+  background: #f3e9bb;
+  padding: 200px 0;
+  color: #6d6d6d;
+}
+.div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.div h2 {
+  font-size: 40px;
+  flex: 3;
+}
+.mulunch_font {
+  font-family: "TsukuBRdGothic-Regular", sans-serif;
+  font-size: 18px;
+}
+.div p {
+  text-align: start;
+  flex: 5;
+}
+.div p span {
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #6d6d6d;
+}
+.project {
+  margin: 100px 0 0 150px;
+}
+.project h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template: 
+  "..... upper1 upper2 upper3 ....." 300px
+  "..... ..... ..... ..... ....." 100px
+  "..... lower1 ..... lower2 ....." 300px
+    100px  300px 300px 300px  100px;
+}
+.grid_upper {
+  grid-area: upper;
+}
+.grid_lower {
+  grid-area: lower;
 }

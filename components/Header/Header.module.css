@@ -68,5 +68,6 @@
   align-items: center;
 }
 .sns_link a svg {
+  margin-top: 2px;
   margin-left: 2px;
 }
