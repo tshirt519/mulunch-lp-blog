@@ -2,7 +2,6 @@
   height: 1200px;
   position: relative;
 }
-
 .div {
   position: absolute;
   top: 60%;
@@ -12,5 +11,8 @@
   z-index: 5;
   text-align: center;
   color: #fff;
-  opacity: 0.8;
+  opacity: 0.6;
+}
+.svg {
+  filter: brightness(1) invert(1);
 }
