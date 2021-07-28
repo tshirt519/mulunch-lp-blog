@@ -1,6 +1,5 @@
 import styles from "../Project/Project.module.css";
 import Image from "next/image";
-import { style } from "dom-helpers";
 
 export const Project = () => {
   return (
