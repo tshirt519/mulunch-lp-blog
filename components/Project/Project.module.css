@@ -34,17 +34,33 @@
   margin: 0 0 10px 0;
 }
 
-.grid {
-  display: grid;
-  grid-template: 
-  "..... upper1 upper2 upper3 ....." 300px
-  "..... ..... ..... ..... ....." 100px
-  "..... lower1 ..... lower2 ....." 300px
-    100px  300px 300px 300px  100px;
-}
 .grid_upper {
-  grid-area: upper;
+  margin-top: 100px;
+  display: grid;
+  grid-template:
+    "...... upper1 ...... upper2 ...... upper3 ......" 300px
+    / auto 300px 50px 300px 50px 300px auto;
 }
+
 .grid_lower {
-  grid-area: lower;
+  display: grid;
+  grid-template:
+    "...... lower1 ...... lower2 ......" 300px
+    / auto 300px 50px 300px auto;
+}
+
+.upper1 {
+  grid-area: upper1;
+}
+.upper2 {
+  grid-area: upper2;
+}
+.upper3 {
+  grid-area: upper3;
+}
+.lower1 {
+  grid-area: lower1;
+}
+.lower2 {
+  grid-area: lower2;
 }
