@@ -25,8 +25,6 @@ export const Project = () => {
             alt="project image"
             width={400}
             height={400}
-            objectFit="cover"
-            objectPosition="center"
           />
         </div>
         <div className={styles.upper2}>

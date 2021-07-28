@@ -39,6 +39,7 @@
   display: grid;
   grid-template:
     "...... upper1 ...... upper2 ...... upper3 ......" 400px
+    "...... ...... ......  ...... ...... ...... ......" 50px
     / auto 400px 50px 400px 50px 400px auto;
 }
 
@@ -51,16 +52,19 @@
 
 .upper1 {
   grid-area: upper1;
+  margin-top: -50px;
 }
 .upper2 {
   grid-area: upper2;
 }
 .upper3 {
   grid-area: upper3;
+  margin-top: -50px;
 }
 .lower1 {
   grid-area: lower1;
 }
 .lower2 {
   grid-area: lower2;
+  margin-top: -50px; 
 }
