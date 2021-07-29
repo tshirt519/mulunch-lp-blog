@@ -1,5 +1,5 @@
 .section {
-  padding: 100px 0;
+  padding: 200px 0 0;
   color: #6e6e6e;
   text-align: center;
 
@@ -9,7 +9,7 @@
   font-size: 60px;
 }
 .ul {
-  margin: 25px auto;
+  margin: 25px auto 0;
   width: 90%;
   display: flex;
   justify-content: space-around;

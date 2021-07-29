@@ -1,3 +1,31 @@
 .section {
-  height: 200px;
+  background-color: #e1ddcb;
+  padding-bottom: 100px;
+}
+.village {
+  text-align: center;
+  margin: 0 auto;
+}
+.village details {
+  background: #F7F5F1;
+  color: #6e6e6e;
+  width: 50%;
+  padding: 20px 0;
+  margin: 50px auto;
+  background: #eee;
+  box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+
+}
+.village details summary {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+}
+.village details summary svg {
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.village details p {
+  padding: 20px 50px 0;
 }
