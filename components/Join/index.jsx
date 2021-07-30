@@ -1,6 +1,5 @@
 import styles from "../Join/Join.module.css";
 import Image from "next/image";
-import { style } from "dom-helpers";
 
 export const Join = () => {
   return (
