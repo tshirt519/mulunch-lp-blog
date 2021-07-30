@@ -1,3 +1,72 @@
 .section {
-  height: 200px;
+  background: #CAD4E3;
+  color: #6e6e6e;
+  padding: 50px 0 0;
+}
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading div {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading h2 {
+  color: #fff;
+  font-size: 60px;
+}
+.heading p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #6e6e6e; 
+}
+.description {
+  font-weight: bold;
+  margin-left: 200px;
+  margin-top: -200px;
+}
+.description h3 {
+  margin: 50px 0;
+}
+.flow {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.form div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.form input {
+  display: block;
+  width: 400px;
+  height: 50px;
+}
+.form textarea {
+  display: block;
+  margin: 0 auto 50px;
+}
+.form > input {
+  display: block;
+  margin: 100px auto;
+  background: #de9044;
+  border: none;
+  color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.transition {
+  height: 100px;
+  width: 100%;
+  background-image: url(/jf-section3.png);
+  background-size: cover;
+  background-position: center center;
 }

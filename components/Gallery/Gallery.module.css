@@ -1,5 +1,6 @@
 .section {
-  padding: 0 0 300px;
+  margin-top: 200px;
+  padding: 100px 0 0;
   color: #6e6e6e;
   text-align: center;
   background-image: url(/gallerybg-3.png);
@@ -9,6 +10,7 @@
 .section h3 {
   text-align: center;
   font-size: 60px;
+  margin-top: -500px;
 }
 .ul {
   margin: 25px auto 0;
