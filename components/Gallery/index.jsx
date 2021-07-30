@@ -63,8 +63,8 @@ export const Gallery = ({ gallery }) => {
                   <article>
                     <Image
                       src={picture.image1}
-                      width={300}
-                      height={300}
+                      width={400}
+                      height={400}
                       alt="pictures image"
                     />
                     <p>{picture.title1}</p>
@@ -72,8 +72,8 @@ export const Gallery = ({ gallery }) => {
                   <article>
                     <Image
                       src={picture.image2}
-                      width={300}
-                      height={300}
+                      width={400}
+                      height={400}
                       alt="pictures image"
                     />
                     <p>{picture.title2}</p>
@@ -81,8 +81,8 @@ export const Gallery = ({ gallery }) => {
                   <article>
                     <Image
                       src={picture.image3}
-                      width={300}
-                      height={300}
+                      width={400}
+                      height={400}
                       alt="pictures image"
                     />
                     <p>{picture.title3}</p>
