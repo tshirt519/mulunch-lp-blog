@@ -1,16 +1,17 @@
 .section {
   background-color: #f7eee6;
   padding: 200px 0;
+  color: #6e6d6e;
 }
 .access {
   display: flex;
   justify-content: space-evenly;
   border: 5px solid #fff;
-  margin: auto 100px;
+  margin: 100px;
   padding: 100px 0;
 }
 .access_left {
-  margin: 150px 0 0;
+  margin: 200px 0 0;
 }
 .access_left div {
   margin: 50px 0 0 0;
@@ -37,7 +38,7 @@
   font-weight: normal;
   border-radius: 50px;
   position: relative;
-  margin-top: -300px;
+  margin-top: -350px;
 }
 .section h3::after {
   content: "";
@@ -54,4 +55,18 @@
 }
 .section h3 svg {
   filter: brightness(0) invert(1);
+}
+.info {
+  padding: 10px 50px 20px;
+  border-left: 2px solid #6e6d6e;
+  border-right: 2px solid #6e6d6e;
+  border-radius: 10px;
+}
+.info p {
+  width: 100px;
+  text-align: center;
+  background-color: #6e6d6e;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 0 20px 0;
 }

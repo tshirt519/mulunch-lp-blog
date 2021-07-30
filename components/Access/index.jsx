@@ -25,8 +25,8 @@ export const Access = () => {
             <p>TEL 03-6457-5597</p>
             <p>11:30-14:30 (LO 14:00)</p>
           </div>
-          <p>最寄駅</p>
-          <div>
+          <div className={styles.info}>
+            <p>最寄駅</p>
             <ul>
               <li>JR 飯田橋駅 西口 徒歩11分</li>
               <li>東京メトロ 各線 飯田橋駅 B3出口 徒歩10分</li>
@@ -36,7 +36,7 @@ export const Access = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className={styles.access_image}>
           <Image
             src="/access-image.png"
