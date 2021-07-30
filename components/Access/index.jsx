@@ -50,6 +50,7 @@ export const Access = () => {
           ></iframe>
         </div>
       </div>
+      <div className={styles.transition}></div>
     </section>
   );
 };

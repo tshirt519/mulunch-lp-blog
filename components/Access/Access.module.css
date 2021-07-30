@@ -1,6 +1,6 @@
 .section {
   background-color: #f7eee6;
-  padding: 200px 0;
+  padding: 100px 0 0;
   color: #6e6d6e;
 }
 .access {
@@ -8,7 +8,7 @@
   justify-content: space-evenly;
   border: 5px solid #fff;
   margin: 100px;
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 .access_left {
   margin: 200px 0 0;
@@ -69,4 +69,11 @@
   color: #fff;
   padding: 5px 10px;
   margin: 0 0 20px 0;
+}
+.transition {
+  height: 200px;
+  width: 100%;
+  background-image: url(/gallerysection-2.png);
+  background-position: center center;
+  background-size: cover;
 }

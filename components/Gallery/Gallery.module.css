@@ -1,3 +1,39 @@
 .section {
-  height: 200px;
+  padding: 0 0 300px;
+  color: #6e6e6e;
+  text-align: center;
+  background-image: url(/gallerybg-3.png);
+  background-position: center center;
+  background-size: cover;
+}
+.section h3 {
+  text-align: center;
+  font-size: 60px;
+}
+.ul {
+  margin: 25px auto 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul button {
+  padding: 10px 12px;
+  border-radius: 50%;
+  border: none;
+  color: #6e6e6e;
+  opacity: 0.6;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+.ul article {
+  margin: 0 20px;
+}
+.ul article p {
+  color: #fff;
+  position: absolute;
+  text-shadow: 2px 2px 4px #000;
+  margin: -25px auto 0;
+  width: 300px;
 }
