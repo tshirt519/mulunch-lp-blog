@@ -8,8 +8,8 @@ export const Village = () => {
         <Image
           src="/vbg-2.png"
           alt="village section"
-          width={2000}
-          height={1500}
+          width={1680}
+          height={1200}
         />
       </div>
       <div className={styles.village}>
