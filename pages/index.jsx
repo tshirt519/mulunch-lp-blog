@@ -8,8 +8,8 @@ import { Project } from "../components/Project";
 import { Topic } from "../components/Topic";
 import { Village } from "../components/Village";
 import { Lunch } from "../components/Lunch";
-import { Gallery } from "../components/Gallery";
 import { Access } from "../components/Access";
+import { Gallery } from "../components/Gallery";
 import { Join } from "../components/Join";
 
 export default function Home() {
@@ -31,8 +31,8 @@ export default function Home() {
         <Topic />
         <Village />
         <Lunch />
-        <Gallery />
         <Access />
+        <Gallery />
         <Join />
       </main>
       <Footer />
