@@ -4,7 +4,7 @@
 }
 .div {
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 0;
   right: 0;
   margin: auto;
@@ -12,6 +12,17 @@
   text-align: center;
   color: #fff;
   opacity: 0.8;
+  animation: key1 0.5s ease infinite alternate;
+}
+@keyframes key1 {
+  0% {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-15px);
+    opacity: 1;
+  }
 }
 .div:hover {
   opacity: 0.5;
