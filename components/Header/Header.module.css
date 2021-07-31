@@ -24,12 +24,14 @@
 }
 .li {
   border-radius: 50px;
+  cursor: pointer;
 }
 .a:hover {
   opacity: 0.5;
 }
 .logo {
   margin-top: 5px;
+  cursor: pointer;
 }
 .a {
   display: flex;

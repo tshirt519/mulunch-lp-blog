@@ -1,20 +1,21 @@
 import styles from "../Footer/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as Scroll } from "react-scroll";
 
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <a className={styles.logo}>
+          <Scroll to="top" smooth={true} className={styles.logo}>
             <Image
               src="/mulunch_logo.png"
               alt="mulunch logo"
               width={150}
               height={75}
             />
-          </a>
+          </Scroll>
         </li>
         <li className={styles.sns_link}>
           <Link href="https://twitter.com/muramusubi/">
