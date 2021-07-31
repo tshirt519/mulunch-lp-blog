@@ -1,10 +1,10 @@
 import styles from "../Top/Top.module.css";
 import Image from "next/image";
-import Link from "next/link";
+import { Link as Scroll } from "react-scroll";
 
 export const Top = () => {
   return (
-    <section className={styles.section}>
+    <section id="top" className={styles.section}>
       <Image
         src="/TV-6.jpg"
         alt="top visual"
@@ -15,7 +15,7 @@ export const Top = () => {
       ></Image>
 
       <div className={styles.div}>
-        <Link href="#">
+        <Scroll to="concept" smooth={true}>
           <a>
             <p>SCROLL</p>
             <svg
@@ -27,7 +27,7 @@ export const Top = () => {
               <path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z" />
             </svg>
           </a>
-        </Link>
+        </Scroll>
       </div>
     </section>
   );

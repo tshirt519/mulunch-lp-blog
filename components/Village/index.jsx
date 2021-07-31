@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Village = () => {
   return (
-    <section className={styles.section}>
+    <section id="village" className={styles.section}>
       <div>
         <Image
           src="/vbg-2.png"

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Lunch = () => {
   return (
-    <section className={styles.section}>
+    <section id="lunch" className={styles.section}>
       <div>
         <Image
           src="/lunchbg-4.png"

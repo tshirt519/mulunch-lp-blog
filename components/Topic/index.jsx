@@ -58,7 +58,7 @@ export const Topic = ({ topic }) => {
   };
 
   return (
-    <section className={styles.section}>
+    <section id="topic" className={styles.section}>
       <p>最新のお知らせ</p>
       <h3>TOPICS</h3>
       <div>

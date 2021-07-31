@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Project = () => {
   return (
-    <section className={styles.section}>
+    <section id="project" className={styles.section}>
       <div className={styles.div}>
         <h2 className={styles.mulunch_font}>むらんちの活動</h2>
         <p>

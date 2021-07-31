@@ -17,7 +17,7 @@ export const Footer = () => {
           </a>
         </li>
         <li className={styles.sns_link}>
-          <Link href="http://twitter.com">
+          <Link href="https://twitter.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +29,7 @@ export const Footer = () => {
               </svg>
             </a>
           </Link>
-          <Link href="http://instagram.com">
+          <Link href="https://www.instagram.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export const Footer = () => {
               </svg>
             </a>
           </Link>
-          <Link href="http://facebook.com">
+          <Link href="https://www.facebook.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

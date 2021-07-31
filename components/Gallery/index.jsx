@@ -49,7 +49,7 @@ export const Gallery = ({ gallery }) => {
   };
 
   return (
-    <section className={styles.section}>
+    <section id="gallery" className={styles.section}>
       <h3>Photo Gallery</h3>
       <div>
         <ul className={styles.ul}>

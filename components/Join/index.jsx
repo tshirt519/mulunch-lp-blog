@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Join = () => {
   return (
-    <section className={styles.section}>
+    <section id="join" className={styles.section}>
       <div className={styles.heading}>
         <div>
           <h2>JOIN</h2>

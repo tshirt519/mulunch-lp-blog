@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Access = () => {
   return (
-    <section className={styles.section}>
+    <section id="access" className={styles.section}>
       <div className={styles.access}>
         <div className={styles.access_left}>
           <h3>
