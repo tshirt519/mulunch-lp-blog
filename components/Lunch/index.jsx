@@ -32,8 +32,8 @@ export const Lunch = () => {
       <Image
           src="/lunchimg3.png"
           alt="lunch background"
-          width={1400}
-          height={800}
+          width={1300}
+          height={650}
         />
       </div>
     </section>
