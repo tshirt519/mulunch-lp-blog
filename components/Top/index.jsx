@@ -15,7 +15,7 @@ export const Top = () => {
       ></Image>
 
       <div className={styles.div}>
-        <Scroll to="concept" smooth={true}>
+        <Scroll to="concept" smooth={true} duration={1000} offset={-50}>
           <a>
             <p>SCROLL</p>
             <svg
