@@ -13,7 +13,9 @@
   color: #fff;
   opacity: 0.8;
   animation: key1 0.5s ease infinite alternate;
+  cursor: pointer;
 }
+
 @keyframes key1 {
   0% {
     transform: translateY(0px);
