@@ -26,5 +26,7 @@
   cursor: pointer;
 }
 .ul article {
+  height: 350px;
+  width: 300px;
   margin: 0 10px;
 }

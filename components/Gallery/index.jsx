@@ -8,34 +8,34 @@ export const Gallery = ({ gallery }) => {
       title1: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
       image1:
         "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
-      title2: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
+      title2: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
       image2:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
-      title3: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
+      title3: "スナックむらむすび、始まります",
       image3:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg",
     },
     {
       title1: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
       image1:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
-      title2: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
+      "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
+      title2: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
       image2:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
-      title3: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
+      title3: "スナックむらむすび、始まります",
       image3:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg",
     },
     {
       title1: "スナックむらむすび、始まります",
       image1:
         "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg",
-      title2: "スナックむらむすび、始まります",
+      title2: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
       image2:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg",
-      title3: "スナックむらむすび、始まります",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
+      title3: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
       image3:
-        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
     },
   ];
 
