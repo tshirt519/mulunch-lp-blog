@@ -10,7 +10,7 @@ export const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles.ul}>
             <h1 className={styles.logo}>
-              <Scroll to="top" smooth={true}>
+              <Scroll to="top" smooth={true} duration={1000} offset={0}>
                 <a className={styles.a}>
                   <Image
                     src="/mulunch_logo.png"
@@ -22,43 +22,43 @@ export const Header = () => {
               </Scroll>
             </h1>
             <li className={styles.li}>
-              <Scroll to="concept" smooth={true}>
+              <Scroll to="concept" smooth={true} duration={1000} offset={-50}>
 
                 <a className={styles.a}>CONCEPT</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="project" smooth={true}>
+              <Scroll to="project" smooth={true} duration={1000} offset={50}>
                 <a className={styles.a}>PROJECTS</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="topic" smooth={true}>
+              <Scroll to="topic" smooth={true} duration={1000} offset={0}>
                 <a className={styles.a}>TOPICS</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="village" smooth={true}>
+              <Scroll to="village" smooth={true} duration={1000} offset={120}>
                 <a className={styles.a}>VILLAGE</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="lunch" smooth={true}>
+              <Scroll to="lunch" smooth={true} duration={1000} offset={0}>
                 <a className={styles.a}>LUNCH</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="access" smooth={true}>
+              <Scroll to="access" smooth={true} duration={1000} offset={-50}>
                 <a className={styles.a}>ACCESS</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="gallery" smooth={true}>
+              <Scroll to="gallery" smooth={true} duration={1000} offset={-600}>
                 <a className={styles.a}>GARLLERY</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="join" smooth={true}>
+              <Scroll to="join" smooth={true} duration={1000} offset={50}>
                 <a className={styles.join}>JOIN</a>
               </Scroll>
             </li>
