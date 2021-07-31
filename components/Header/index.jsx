@@ -15,8 +15,8 @@ export const Header = () => {
                   <Image
                     src="/mulunch_logo.png"
                     alt="mulunch logo"
-                    width={100}
-                    height={50}
+                    width={120}
+                    height={60}
                   />
                 </a>
               </Scroll>
