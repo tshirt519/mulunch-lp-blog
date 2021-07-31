@@ -93,7 +93,7 @@
     width: 80%;
   }
   .sns_nav {
-    /* top: 20%; */
+    top: 10%;
   }
 }
 @media screen and (max-width: 600px) {
