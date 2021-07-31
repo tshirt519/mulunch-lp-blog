@@ -19,14 +19,22 @@
   padding: 10px 12px;
   border-radius: 50%;
   border: none;
-  color: #6e6e6e;
+  background-color: #ccc;
+  color: #6e6d6e;
   opacity: 0.6;
   font-weight: bold;
   box-shadow: 0 0 4px rgb(0 0 0 / 30%);
   cursor: pointer;
 }
+.ul button:hover {
+  opacity: 0.4;
+}
 .ul article {
   height: 350px;
   width: 300px;
   margin: 0 10px;
+  cursor: pointer;
+}
+.ul article:hover {
+  opacity: 0.5;
 }

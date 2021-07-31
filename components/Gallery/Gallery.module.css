@@ -23,14 +23,22 @@
   padding: 10px 12px;
   border-radius: 50%;
   border: none;
+  background-color: #ccc;
   color: #6e6e6e;
   opacity: 0.6;
   font-weight: bold;
   box-shadow: 0 0 4px rgb(0 0 0 / 30%);
   cursor: pointer;
 }
+.ul button:hover {
+  opacity: 0.5;
+}
 .ul article {
   margin: 0 20px;
+  cursor: pointer;
+}
+.ul article:hover {
+  opacity: 0.6;
 }
 .ul article p {
   color: #fff;

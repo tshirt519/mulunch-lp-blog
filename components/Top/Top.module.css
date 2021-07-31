@@ -13,6 +13,9 @@
   color: #fff;
   opacity: 0.8;
 }
+.div:hover {
+  opacity: 0.5;
+}
 .svg {
   filter: brightness(1) invert(1);
 }
