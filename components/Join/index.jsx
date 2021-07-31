@@ -46,7 +46,7 @@ export const Join = () => {
         </div>
         <textarea
           name="contact"
-          cols="160"
+          cols="167"
           rows="16"
           placeholder="お問い合わせ内容"
         ></textarea>
