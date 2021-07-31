@@ -12,8 +12,8 @@ export const Footer = () => {
             <Image
               src="/mulunch_logo.png"
               alt="mulunch logo"
-              width={150}
-              height={75}
+              width={180}
+              height={90}
             />
           </Scroll>
         </li>
