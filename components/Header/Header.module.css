@@ -86,3 +86,22 @@
   margin-top: 2px;
   margin-left: 2px;
 }
+/* レスポンシブ */
+@media screen and (max-width: 1200px) {
+  .header,
+  .sns_nav {
+    width: 80%;
+  }
+  .sns_nav {
+    /* top: 20%; */
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    width: 80%;
+    top: 1%;
+  }
+  .sns_nav {
+    top: 6%;
+  }
+}

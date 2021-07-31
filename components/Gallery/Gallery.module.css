@@ -47,3 +47,22 @@
   margin: -25px auto 0;
   width: 400px;
 }
+/* レスポンシブ */
+@media screen and (max-width: 1400px) {
+  .ul article, .ul article p {
+    width: 350px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .ul article, .ul article p {
+    width: 300px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ul article {
+    width: 350px;
+    height: 400px;
+  }
+}

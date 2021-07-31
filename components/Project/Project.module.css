@@ -49,7 +49,6 @@
     "...... lower1 ...... lower2 ......" 400px
     / auto 400px 50px 400px auto;
 }
-
 .upper1 {
   grid-area: upper1;
   margin-top: -50px;
@@ -66,5 +65,41 @@
 }
 .lower2 {
   grid-area: lower2;
-  margin-top: -50px; 
+  margin-top: -50px;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 1200px) {
+  .grid_upper {
+    margin-top: 100px;
+    display: grid;
+    grid-template:
+      "...... upper1 ...... upper2 ...... upper3 ......" 350px
+      "...... ...... ......  ...... ...... ...... ......" 25px
+      / auto 350px 25px 350px 25px 350px auto;
+  }
+  .grid_lower {
+    margin-top: 50px;
+    display: grid;
+    grid-template:
+      "...... lower1 ...... lower2 ......" 350px
+      / auto 350px 25px 350px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grid_upper {
+    margin-top: 100px;
+    display: grid;
+    grid-template:
+      "...... upper1 ...... upper2 ...... upper3 ......" 400px
+      "...... ...... ......  ...... ...... ...... ......" 25px
+      / auto 400px 25px 400px 25px 400px auto;
+  }
+  .grid_lower {
+    margin-top: 50px;
+    display: grid;
+    grid-template:
+      "...... lower1 ...... lower2 ......" 400px
+      / auto 400px 25px 400px auto;
+  }
 }

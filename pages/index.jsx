@@ -24,7 +24,7 @@ export default function Home() {
         <link rel="icon" href="/mulunch_favi.ico" />
       </Head>
       <Header />
-      <main>
+      <main className={styles.container}>
         <Top />
         <Concept />
         <Project />

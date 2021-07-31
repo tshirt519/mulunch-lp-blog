@@ -32,3 +32,20 @@
 .svg {
   filter: brightness(1) invert(1);
 }
+/* レスポンシブ */
+@media screen and (max-width: 1400px) {
+  .div {
+    top: 55%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .div {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .div {
+    top: 60%;
+    font-size: 30px;
+  }
+}
