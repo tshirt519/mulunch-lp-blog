@@ -36,20 +36,25 @@
   margin-top: 50px;
   text-align: center;
 }
-
+/* フォーム */
+.form {
+  width: 1200px;
+  margin: 0 auto;
+}
 .form div {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 50px 0;
 }
 .form input {
   display: block;
-  width: 420px;
+  width: 400px;
   height: 50px;
 }
 .form textarea {
   display: block;
+  width: auto;
   margin: 0 auto 50px;
 }
 .form > input {
@@ -66,7 +71,6 @@
 .form > input:hover {
   filter: brightness(110%);
 }
-
 .transition {
   height: 100px;
   width: 100%;
