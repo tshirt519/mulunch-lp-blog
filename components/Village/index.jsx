@@ -16,8 +16,8 @@ export const Village = () => {
         <Image
           src="/uenomurabg1-3.png"
           alt="ueno village"
-          width={2800}
-          height={1200}
+          width={1400}
+          height={600}
         />
         <details>
           <summary>
