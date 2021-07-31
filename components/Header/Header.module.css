@@ -90,10 +90,16 @@
 @media screen and (max-width: 1200px) {
   .header,
   .sns_nav {
+    overflow: scroll;
+    display: none;
+  }
+  
+  .header,
+  .sns_nav {
     width: 80%;
   }
   .sns_nav {
-    top: 10%;
+    top: 12%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -102,6 +108,6 @@
     top: 1%;
   }
   .sns_nav {
-    top: 6%;
+    top: 5%;
   }
 }

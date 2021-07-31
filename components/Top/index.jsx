@@ -5,15 +5,6 @@ import { Link as Scroll } from "react-scroll";
 export const Top = () => {
   return (
     <section id="top" className={styles.section}>
-      <Image
-        src="/TV-6.jpg"
-        alt="top visual"
-        width={1680}
-        height={1074}
-        objectPosition="center"
-        objectFit="cover"
-      ></Image>
-
       <div className={styles.div}>
         <Scroll to="concept" smooth={true} duration={1000} offset={-50}>
           <a>

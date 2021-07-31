@@ -1,6 +1,9 @@
 .section {
-  height: 1200px;
+  height: 120vh;
   position: relative;
+  background-image: url("/TV-6.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .div {
   position: absolute;
@@ -35,17 +38,18 @@
 /* レスポンシブ */
 @media screen and (max-width: 1400px) {
   .div {
-    top: 55%;
+    top: 65%;
   }
 }
 @media screen and (max-width: 1200px) {
   .div {
-    top: 50%;
+    top: 70%;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 600px) {
   .div {
-    top: 60%;
+    top: 70%;
     font-size: 30px;
   }
 }
