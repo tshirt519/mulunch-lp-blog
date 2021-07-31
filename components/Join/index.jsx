@@ -35,7 +35,7 @@ export const Join = () => {
           src="/join-flow1.png"
           alt="join flow"
           width={1200}
-          height={800}
+          height={700}
         />
       </div>
 
