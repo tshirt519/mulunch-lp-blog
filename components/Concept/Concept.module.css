@@ -1,6 +1,7 @@
 .section {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 .div {
   flex: 1;
@@ -29,7 +30,7 @@
 /* レスポンシブ */
 @media screen and (max-width: 1400px) {
   .section {
-    padding: 200px 0;
+    padding: 100px 0 0;
   }
 }
 @media screen and (max-width: 1200px) {

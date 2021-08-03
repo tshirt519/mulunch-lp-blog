@@ -45,12 +45,12 @@
 @media screen and (max-width: 1200px) {
   .div {
     top: 70%;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 600px) {
   .div {
     top: 70%;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
