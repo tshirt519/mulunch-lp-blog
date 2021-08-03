@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-top: 3px solid #eee;
   padding: 0 100px;
 }
 .ul {
@@ -21,10 +22,6 @@
 .logo {
   display: block;
   margin-top: 15px;
-  cursor: pointer;
-}
-.logo:hover {
-  opacity: 0.5;
 }
 /* 中央リンク */
 .sns_link {
@@ -45,9 +42,6 @@
   width: 40px;
   height: 40px;
   box-shadow: 0 0 6px rgb(0 0 0 / 30%);
-}
-.sns_link a:hover {
-  opacity: 0.5;
 }
 .sns_link a svg {
   margin-left: 2px;

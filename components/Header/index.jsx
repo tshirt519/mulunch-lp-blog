@@ -1,7 +1,6 @@
 import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { Link as Scroll } from "react-scroll";
 
 export const Header = () => {
   return (
@@ -10,57 +9,56 @@ export const Header = () => {
         <nav className={styles.nav}>
           <ul className={styles.ul}>
             <h1 className={styles.logo}>
-              <Scroll to="top" smooth={true} duration={1000} offset={0}>
+              <Link href="/">
                 <a className={styles.a}>
                   <Image
                     src="/mulunch_logo.png"
                     alt="mulunch logo"
-                    width={120}
-                    height={60}
+                    width={100}
+                    height={50}
                   />
                 </a>
-              </Scroll>
+              </Link>
             </h1>
             <li className={styles.li}>
-              <Scroll to="concept" smooth={true} duration={1000} offset={-50}>
-
+              <Link href="#">
                 <a className={styles.a}>CONCEPT</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="project" smooth={true} duration={1000} offset={50}>
+              <Link href="#">
                 <a className={styles.a}>PROJECTS</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="topic" smooth={true} duration={1000} offset={0}>
+              <Link href="#">
                 <a className={styles.a}>TOPICS</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="village" smooth={true} duration={1000} offset={120}>
+              <Link href="#">
                 <a className={styles.a}>VILLAGE</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="lunch" smooth={true} duration={1000} offset={0}>
+              <Link href="#">
                 <a className={styles.a}>LUNCH</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="access" smooth={true} duration={1000} offset={-50}>
-                <a className={styles.a}>ACCESS</a>
-              </Scroll>
-            </li>
-            <li className={styles.li}>
-              <Scroll to="gallery" smooth={true} duration={1000} offset={-600}>
+              <Link href="#">
                 <a className={styles.a}>GARLLERY</a>
-              </Scroll>
+              </Link>
             </li>
             <li className={styles.li}>
-              <Scroll to="join" smooth={true} duration={1000} offset={50}>
+              <Link href="#">
+                <a className={styles.a}>ACCESS</a>
+              </Link>
+            </li>
+            <li className={styles.li}>
+              <Link href="#">
                 <a className={styles.join}>JOIN</a>
-              </Scroll>
+              </Link>
             </li>
           </ul>
         </nav>
@@ -68,7 +66,7 @@ export const Header = () => {
 
       <ul className={styles.sns_nav}>
         <li className={styles.sns_link}>
-          <Link href="https://twitter.com/muramusubi/">
+          <Link href="http://twitter.com">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +80,7 @@ export const Header = () => {
           </Link>
         </li>
         <li className={styles.sns_link}>
-          <Link href="https://www.instagram.com/muramusubi/">
+          <Link href="http://instagram.com">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -96,7 +94,7 @@ export const Header = () => {
           </Link>
         </li>
         <li className={styles.sns_link}>
-          <Link href="https://www.facebook.com/muramusubi/">
+          <Link href="http://facebook.com">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

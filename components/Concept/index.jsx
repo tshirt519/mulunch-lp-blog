@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Concept = () => {
   return (
-    <section id="concept" className={styles.section}>
+    <section className={styles.section}>
       <div className={styles.div}>
         <h2 className={styles.mulunch_font}>
           <p>初めまして、</p>

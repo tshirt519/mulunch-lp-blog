@@ -8,8 +8,8 @@ import { Project } from "../components/Project";
 import { Topic } from "../components/Topic";
 import { Village } from "../components/Village";
 import { Lunch } from "../components/Lunch";
-import { Access } from "../components/Access";
 import { Gallery } from "../components/Gallery";
+import { Access } from "../components/Access";
 import { Join } from "../components/Join";
 
 export default function Home() {
@@ -24,15 +24,15 @@ export default function Home() {
         <link rel="icon" href="/mulunch_favi.ico" />
       </Head>
       <Header />
-      <main className={styles.container}>
+      <main>
         <Top />
         <Concept />
         <Project />
         <Topic />
         <Village />
         <Lunch />
-        <Access />
         <Gallery />
+        <Access />
         <Join />
       </main>
       <Footer />
