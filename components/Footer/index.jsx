@@ -1,23 +1,24 @@
 import styles from "../Footer/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { Link as Scroll } from "react-scroll";
 
 export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <a className={styles.logo}>
+          <Scroll to="top" smooth={true} className={styles.logo}>
             <Image
               src="/mulunch_logo.png"
               alt="mulunch logo"
-              width={150}
-              height={75}
+              width={180}
+              height={90}
             />
-          </a>
+          </Scroll>
         </li>
         <li className={styles.sns_link}>
-          <Link href="http://twitter.com">
+          <Link href="https://twitter.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,7 +30,7 @@ export const Footer = () => {
               </svg>
             </a>
           </Link>
-          <Link href="http://instagram.com">
+          <Link href="https://www.instagram.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +42,7 @@ export const Footer = () => {
               </svg>
             </a>
           </Link>
-          <Link href="http://facebook.com">
+          <Link href="https://www.facebook.com/muramusubi/">
             <a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

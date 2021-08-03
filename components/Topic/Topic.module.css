@@ -1,5 +1,5 @@
 .section {
-  padding: 100px 0;
+  padding: 200px 0 0;
   color: #6e6e6e;
   text-align: center;
 
@@ -8,27 +8,47 @@
   text-align: center;
   font-size: 60px;
 }
-
 .ul {
-  margin: 50px auto;
-  width: 80%;
+  margin: 25px auto 0;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
-.ul li {
-  height: 300px;
-  width: 300px;
-  margin: 0 10px;
-}
 .ul button {
-  margin: 10px;
   padding: 10px 12px;
   border-radius: 50%;
   border: none;
-  color: #6e6e6e;
+  background-color: #ccc;
+  color: #6e6d6e;
   opacity: 0.6;
   font-weight: bold;
   box-shadow: 0 0 4px rgb(0 0 0 / 30%);
   cursor: pointer;
+}
+.ul button:hover {
+  opacity: 0.4;
+}
+.ul article {
+  height: 350px;
+  width: 300px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.ul article:hover {
+  opacity: 0.5;
+}
+/* レスポンシブ */
+
+@media screen and (max-width: 1200px) {
+  .ul article {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .ul article {
+    width: 300px;
+    height: 350px;
+  }
 }

@@ -25,3 +25,21 @@
   filter: invert(30%) sepia(100%) saturate(405%) hue-rotate(30deg)
     brightness(90%) contrast(100%);
 }
+
+/* レスポンシブ */
+@media screen and (max-width: 1400px) {
+  .section {
+    padding-bottom: 200px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section {
+    padding-bottom: 300px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section {
+    padding-bottom: 200px;
+  }
+}
+

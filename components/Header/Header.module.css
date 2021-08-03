@@ -22,8 +22,16 @@
   justify-content: space-around;
   align-items: center;
 }
+.li {
+  border-radius: 50px;
+  cursor: pointer;
+}
+.a:hover {
+  opacity: 0.5;
+}
 .logo {
   margin-top: 5px;
+  cursor: pointer;
 }
 .a {
   display: flex;
@@ -34,6 +42,9 @@
   padding: 10px 50px;
   border-radius: 50px;
   box-shadow: 0 0 4px rgb(0 0 0 / 40%);
+}
+.join:hover {
+  filter: brightness(110%);
 }
 
 /* snsのナビゲーションバー */
@@ -67,7 +78,36 @@
   display: flex;
   align-items: center;
 }
+.sns_link a:hover {
+  opacity: 0.5;
+}
+
 .sns_link a svg {
   margin-top: 2px;
   margin-left: 2px;
+}
+/* レスポンシブ */
+@media screen and (max-width: 1200px) {
+  .header,
+  .sns_nav {
+    overflow: scroll;
+    display: none;
+  }
+  
+  .header,
+  .sns_nav {
+    width: 80%;
+  }
+  .sns_nav {
+    top: 12%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .header {
+    width: 80%;
+    top: 1%;
+  }
+  .sns_nav {
+    top: 5%;
+  }
 }
