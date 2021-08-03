@@ -20,6 +20,7 @@
   align-items: center;
 }
 .ul button {
+  margin: 0 auto;
   padding: 10px 12px;
   border-radius: 50%;
   border: none;
