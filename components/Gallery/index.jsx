@@ -1,6 +1,7 @@
 import styles from "./Gallery.module.css";
 import Image from "next/image";
 import { useState } from "react";
+import { IoIosArrowDropright, IoIosArrowDropleft } from "react-icons/io";
 
 export const Gallery = ({ gallery }) => {
   const pictures = [
@@ -18,7 +19,7 @@ export const Gallery = ({ gallery }) => {
     {
       title1: "地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。",
       image1:
-      "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg",
       title2: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
       image2:
         "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
@@ -53,8 +54,8 @@ export const Gallery = ({ gallery }) => {
       <h3>Photo Gallery</h3>
       <div>
         <ul className={styles.ul}>
-          <button className={styles.next} onClick={prevSlide}>
-            ＜
+          <button className={styles.prev} onClick={prevSlide}>
+            <IoIosArrowDropleft size={24} />
           </button>
           {pictures.map((picture, index) => (
             <li key={index}>
@@ -92,7 +93,7 @@ export const Gallery = ({ gallery }) => {
             </li>
           ))}
           <button className={styles.next} onClick={nextSlide}>
-            ＞
+            <IoIosArrowDropright size={24} />
           </button>
         </ul>
       </div>

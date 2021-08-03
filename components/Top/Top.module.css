@@ -35,6 +35,7 @@
 .svg {
   filter: brightness(1) invert(1);
 }
+
 /* レスポンシブ */
 @media screen and (max-width: 1400px) {
   .div {

@@ -1,5 +1,6 @@
 import styles from "../Village/Village.module.css";
 import Image from "next/image";
+import { IoIosArrowDropdown } from "react-icons/io";
 
 export const Village = () => {
   return (
@@ -21,15 +22,7 @@ export const Village = () => {
         />
         <details>
           <summary>
-            <svg
-              className={styles.svg}
-              width="20"
-              height="20"
-              viewBox="0 -4 30 30"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z" />
-            </svg>
+            <IoIosArrowDropdown size={24} />
             READ MORE
           </summary>
           <p>
@@ -48,15 +41,7 @@ export const Village = () => {
         />
         <details>
           <summary>
-            <svg
-              className={styles.svg}
-              width="20"
-              height="20"
-              viewBox="0 -4 30 30"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z" />
-            </svg>
+            <IoIosArrowDropdown size={24} />
             READ MORE
           </summary>
           <p>

@@ -19,11 +19,11 @@
   background: #eee;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .village details:hover {
   filter: brightness(110%);
 }
-
 .village details summary svg {
   margin-right: 10px;
   opacity: 0.5;
@@ -31,7 +31,6 @@
 .village details p {
   padding: 20px 50px 0;
 }
-
 .transition {
   background-image: url("/village-lunch-section3.png");
   height: 300px;

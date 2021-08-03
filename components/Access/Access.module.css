@@ -55,6 +55,7 @@
 }
 .section h3 svg {
   filter: brightness(0) invert(1);
+  margin-right: 10px;
 }
 .info {
   padding: 10px 50px 20px;

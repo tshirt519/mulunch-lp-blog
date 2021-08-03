@@ -19,7 +19,7 @@
   padding: 10px 12px;
   border-radius: 50%;
   border: none;
-  background-color: #ccc;
+  background-color: #fff;
   color: #6e6d6e;
   opacity: 0.6;
   font-weight: bold;
@@ -37,6 +37,10 @@
 }
 .ul article:hover {
   opacity: 0.5;
+}
+
+.button_icon {
+  
 }
 /* レスポンシブ */
 

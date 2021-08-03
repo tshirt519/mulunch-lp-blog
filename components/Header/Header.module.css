@@ -77,15 +77,12 @@
   height: 100%;
   display: flex;
   align-items: center;
+  margin-left: 2px;
 }
 .sns_link a:hover {
   opacity: 0.5;
 }
 
-.sns_link a svg {
-  margin-top: 2px;
-  margin-left: 2px;
-}
 /* レスポンシブ */
 @media screen and (max-width: 1200px) {
   .header,
@@ -93,7 +90,7 @@
     overflow: scroll;
     display: none;
   }
-  
+
   .header,
   .sns_nav {
     width: 80%;

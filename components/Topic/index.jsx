@@ -1,6 +1,7 @@
 import styles from "../Topic/Topic.module.css";
 import Image from "next/image";
 import { useState } from "react";
+import { IoIosArrowDropleft, IoIosArrowDropright } from "react-icons/io";
 
 export const Topic = ({ topic }) => {
   const topics = [
@@ -35,7 +36,7 @@ export const Topic = ({ topic }) => {
     {
       title1: "神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店",
       image1:
-      "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
+        "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/神楽坂「むらむすび」営業再開見通せず　東成瀬村アンテナ店_1.jpg",
       title2: "麦ストローで村おこし　大鹿の公民館が商品化、販売",
       image2:
         "https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/麦ストローで村おこし　大鹿の公民館が商品化、販売_1.jpg",
@@ -63,8 +64,8 @@ export const Topic = ({ topic }) => {
       <h3>TOPICS</h3>
       <div>
         <ul className={styles.ul}>
-          <button className={styles.next} onClick={prevSlide}>
-            ＜
+          <button className={styles.prev} onClick={prevSlide}>
+            <IoIosArrowDropleft size={24} />
           </button>
           {topics.map((topic, index) => (
             <li key={index}>
@@ -111,7 +112,7 @@ export const Topic = ({ topic }) => {
             </li>
           ))}
           <button className={styles.next} onClick={nextSlide}>
-            ＞
+            <IoIosArrowDropright size={24} />
           </button>
         </ul>
       </div>
