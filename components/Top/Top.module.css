@@ -7,7 +7,7 @@
 }
 .div {
   position: absolute;
-  top: 66%;
+  top: 70%;
   left: 0;
   right: 0;
   margin: auto;
@@ -39,7 +39,7 @@
 /* レスポンシブ */
 @media screen and (max-width: 1400px) {
   .div {
-    top: 65%;
+    top: 70%;
   }
 }
 @media screen and (max-width: 1200px) {
