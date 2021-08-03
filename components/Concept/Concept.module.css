@@ -39,7 +39,8 @@
 }
 @media screen and (max-width: 600px) {
   .section {
-    padding-bottom: 200px;
+    
+    padding: 200px 0;
   }
 }
 
