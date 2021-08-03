@@ -29,12 +29,12 @@
 /* レスポンシブ */
 @media screen and (max-width: 1400px) {
   .section {
-    padding-bottom: 200px;
+    padding: 200px 0;
   }
 }
 @media screen and (max-width: 1200px) {
   .section {
-    padding-bottom: 300px;
+    padding: 100px 0;
   }
 }
 @media screen and (max-width: 600px) {
