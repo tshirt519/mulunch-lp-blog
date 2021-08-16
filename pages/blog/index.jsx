@@ -17,7 +17,7 @@ export default function Blog() {
 
       <BlogHeader />
       <main className={styles.container}>
-        <div className={styles.div}>test</div>
+        <div className={styles.div}>開発中</div>
       </main>
       <Footer />
     </div>

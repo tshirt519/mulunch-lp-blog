@@ -53,7 +53,7 @@ export const BlogHeader = () => {
             </li>
             <li className={styles.li}>
               <Link href="/">
-                <a className={styles.a}>タグ</a>
+                <a className={styles.a}>タグ一覧</a>
               </Link>
             </li>
             <li className={styles.li}>
