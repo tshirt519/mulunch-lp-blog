@@ -39,10 +39,6 @@
 .ul article:hover {
   opacity: 0.5;
 }
-
-.button_icon {
-  
-}
 /* レスポンシブ */
 
 @media screen and (max-width: 1200px) {
