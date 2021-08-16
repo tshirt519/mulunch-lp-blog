@@ -48,19 +48,19 @@ export const Header = () => {
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="access" smooth={true} duration={1000} offset={-50}>
-                <a className={styles.a}>ACCESS</a>
-              </Scroll>
-            </li>
-            <li className={styles.li}>
               <Scroll to="gallery" smooth={true} duration={1000} offset={-600}>
                 <a className={styles.a}>GARLLERY</a>
               </Scroll>
             </li>
             <li className={styles.li}>
-              <Scroll to="join" smooth={true} duration={1000} offset={50}>
-                <a className={styles.join}>JOIN</a>
+              <Scroll to="join" smooth={true} duration={1000} offset={-50}>
+                <a className={styles.a}>JOIN</a>
               </Scroll>
+            </li>
+            <li className={styles.li}>
+              <Link href="/blog">
+                <a className={styles.join}>BLOG</a>
+              </Link>
             </li>
           </ul>
         </nav>
