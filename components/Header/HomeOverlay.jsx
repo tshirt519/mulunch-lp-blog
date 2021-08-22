@@ -5,7 +5,7 @@ import { Link as Scroll } from "react-scroll";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
 import { ResponsiveHeader } from "./ResponsiveHeader";
 
-export const Header = () => {
+export const HomeOverlay = () => {
   return (
     <section>
       <header className={styles.header}>
