@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Link as Scroll } from "react-scroll";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
-import { ResponsiveHeader } from "./ResponsiveHeader";
+import { Header as ReponsiveHeader } from "/components/Responsive/Header";
 
 export const Header = () => {
   return (
@@ -90,8 +90,7 @@ export const Header = () => {
           </Link>
         </li>
       </ul>
-
-      <ResponsiveHeader/>
+      <ReponsiveHeader />
     </section>
   );
 };

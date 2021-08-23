@@ -1,12 +1,11 @@
-import styles from "../Header/Header.module.css";
-import Link from "next/link";
+import styles from "../Responsive/Header.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import { GoThreeBars } from "react-icons/go";
-import HomeOverlay from "/components/Header/HomeOverlay";
 
-export const ResponsiveHeader = () => {
-  const setOverLay = () => {
-    return <HomeOverlay />;
+export const BlogHeader = () => {
+  const setOverlay = () => {
+    console.log("クリックされました");
   };
 
   return (
@@ -23,13 +22,11 @@ export const ResponsiveHeader = () => {
           </a>
         </Link>
       </h1>
-      <div>
-        <Link href="/">
-          <a onClick={setOverLay}>
-            <GoThreeBars size={40} className={styles.barmenu} />
-          </a>
-        </Link>
-      </div>
+      <nav>
+        <button onClick={setOverlay()}>
+          <GoThreeBars size={40} className={styles.barmenu} />
+        </button>
+      </nav>
     </header>
   );
 };

@@ -2,7 +2,7 @@ import styles from "../Header/Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { IoLogoTwitter, IoLogoInstagram, IoLogoFacebook } from "react-icons/io";
-import { ResponsiveHeader } from "./ResponsiveHeader";
+import { BlogHeader as ResponsiveHeader } from "/components/Responsive/BlogHeader";
 
 export const BlogHeader = () => {
   return (
@@ -89,7 +89,6 @@ export const BlogHeader = () => {
           </Link>
         </li>
       </ul>
-
       <ResponsiveHeader />
     </section>
   );

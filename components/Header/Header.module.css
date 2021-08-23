@@ -12,23 +12,6 @@
   box-shadow: 0 0 4px rgb(0 0 0 / 30%);
   opacity: 0.9;
 }
-
-.responsive_header {
-  display: none;
-  height: 75px;
-  background: rgba(255, 255, 255, 0.9);
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  padding: 0 50px;
-  box-shadow: 0 0 4px rgb(0 0 0 / 30%);
-  justify-content: space-between;
-  align-items: center;
-}
-
 .nav {
   height: 100%;
 }
@@ -105,21 +88,5 @@
   .header,
   .sns_nav {
     display: none;
-  }
-
-  .responsive_header {
-    display: flex;
-  }
-  .barmenu {
-    margin-top: 4px;
-  }
-  .barmenu:hover {
-    opacity: 0.5;
-  }
-}
-@media screen and (max-width: 600px) {
-  .header,
-  .sns_nav {
-    display: flex;
   }
 }
