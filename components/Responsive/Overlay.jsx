@@ -13,7 +13,7 @@ export const Overlay = (props) => {
   return (
     <div>
       {props.showFlag ? (
-        <div className={styles.overlay}>
+        <div className={styles.overlay} onClick={closeOverlay}>
           <nav>
             <h1 className={styles.logo}>
               <Link href="/blog">
@@ -74,8 +74,8 @@ export const Overlay = (props) => {
                 </Link>
               </li>
             </ul>
-            <button onClick={closeOverlay}>
-              <GrClose size={40} />
+            <button className={styles.closeButton} onClick={closeOverlay}>
+              <GrClose size={50} />
             </button>
           </nav>
         </div>
