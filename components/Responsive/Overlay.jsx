@@ -21,8 +21,8 @@ export const Overlay = (props) => {
                   <Image
                     src="/mulunch_logo.png"
                     alt="mulunch logo"
-                    width={80}
-                    height={40}
+                    width={120}
+                    height={60}
                   />
                 </a>
               </Link>
@@ -74,9 +74,9 @@ export const Overlay = (props) => {
                 </Link>
               </li>
             </ul>
-            <button className={styles.closeButton} onClick={closeOverlay}>
+            {/* <button className={styles.closeButton} onClick={closeOverlay}>
               <GrClose size={50} />
-            </button>
+            </button> */}
           </nav>
         </div>
       ) : null}
