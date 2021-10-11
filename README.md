@@ -1,7 +1,7 @@
 # Mulunch Landing Page + Blog Site（開発中）
 こんにちは。このリポジトリでは、日本全国の「村」について楽しく学べるコミュニティ  
 むらんちのランディングページとブログサイト（開発中）を掲載しています。  
-HTML, CSS, Javasctriptで作成したものをReact(Next.js)で書き換えました。  
+HTML, CSS, Javasctriptで作成したものをReact(Next.js)~~とTailwind CSS~~で書き換えました。  
 ブログサイトはRuby on Railsで開発し、ReactでViewを書き換えているところです。  
   
 現在Vercelで公開しています。  
@@ -28,7 +28,7 @@ Reactの理解のため、APIやオブジェクトのデータのやりとりを
 - next: "11.0.1"
 - react: "17.0.2"
 - AWS S3
-  
+- ~~Tailwind CSS @2.2.7~~  
 ## Pages / Components
   
 - Pages
