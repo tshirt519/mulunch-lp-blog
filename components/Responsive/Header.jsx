@@ -15,7 +15,7 @@ export const Header = () => {
     <>
       <header className={styles.responsive_header}>
         <h1 className={styles.logo}>
-          <Link href="/blog">
+          <Link href="/">
             <a className={styles.a}>
               <Image
                 src="/mulunch_logo.png"

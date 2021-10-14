@@ -13,6 +13,12 @@
   justify-content: space-between;
   align-items: center;
 }
+.responsive_header h1 {
+  margin-top: 12px;
+}
+.responsive_header h1:hover {
+  opacity: 0.4;
+}
 .responsive_header nav button {
   border: none;
   background: inherit;
@@ -32,6 +38,14 @@
   justify-content: space-around;
   animation: opacity 0.5s ease 0s 1 alternate none running;
 }
+.overlay h1, .overlay li {
+  cursor: pointer;
+}
+
+.overlay h1:hover, .overlay li:hover {
+  opacity: 0.4;
+}
+
 @keyframes opacity {
   0% {
     opacity: 0;

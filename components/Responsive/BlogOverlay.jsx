@@ -28,37 +28,37 @@ export const BlogOverlay = (props) => {
             </h1>
             <ul>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>投稿一覧</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>むらむすび</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>全国の村</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>上野村</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>大鹿村</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>東成瀬村</a>
                 </Link>
               </li>
               <li className={styles.li}>
-                <Link href="/">
+                <Link href="/blog">
                   <a className={styles.a}>タグ一覧</a>
                 </Link>
               </li>

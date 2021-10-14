@@ -16,7 +16,7 @@ export const Overlay = (props) => {
         <div className={styles.overlay} onClick={closeOverlay}>
           <nav>
             <h1 className={styles.logo}>
-              <Link href="/blog">
+              <Link href="/">
                 <a className={styles.a}>
                   <Image
                     src="/mulunch_logo.png"
