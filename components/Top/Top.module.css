@@ -44,16 +44,21 @@
 }
 @media screen and (max-width: 1200px) {
   .section {
-    margin-top: 75px;
+    margin-top: 150px;
+    min-height: 100vh;
   }
   .div {
     top: 70%;
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 600px) {
+  .section {
+    margin-top: 150px;
+    min-height: 300vh;
+  }
   .div {
     top: 70%;
-    font-size: 20px;
+    font-size: 50px;
   }
 }

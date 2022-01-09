@@ -1,6 +1,6 @@
 .responsive_header {
   display: none;
-  height: 75px;
+  height: 150px;
   background: rgba(255, 255, 255, 0.9);
   position: fixed;
   z-index: 5;
@@ -16,6 +16,7 @@
 .responsive_header h1 {
   margin-top: 12px;
 }
+
 .responsive_header h1:hover {
   opacity: 0.4;
 }
@@ -58,8 +59,8 @@
   text-align: center;
 }
 .overlay li {
-  margin: 30px;
-  font-size: 30px;
+  margin: 150px;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 1200px) {
