@@ -1,33 +1,32 @@
-.section {
-  height: 800px;
-  width: 100%;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main {
+  max-width: 1200px;
+  margin: 180px auto;
+}
+.top_container {
+  max-width: 600px;
+  margin: 175px auto 0;
 }
 
-.article_data {
-  display: flex;
-  justify-content: start;
-  align-items: center;
+.blog_image {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  object-fit: contain;
 }
 
-.article_links {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.posts {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
-
-.article_user_link {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.posts div {
+  margin-top: 25px;
+}
+.posts div img {
+  max-width: 600px;
+  text-align: center;
 }
 
 /* レスポンシブ */
 @media screen and (max-width: 1200px) {
-  .section {
-    margin-top: 75px;
-  }
+
 }

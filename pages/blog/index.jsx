@@ -4,8 +4,10 @@ import { Footer } from "/components/Footer";
 import { BlogHeader } from "/components/Header/BlogHeader";
 import Image from "next/image";
 import Link from "next/link";
+import Post from "/components/Post/post.js";
+import { getAllPostsData } from "/lib/posts.js";
 
-export default function Blog() {
+export default function Blog({ posts }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -18,52 +20,32 @@ export default function Blog() {
       </Head>
 
       <BlogHeader />
-      <main className={styles.container}>
-        <section className={styles.section}>
-          <article>
-            <div className={styles.article_main}>
-              <div className={styles.article_thumbnail}>
-                <Image
-                  src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg"
-                  width={600}
-                  height={600}
-                  alt="topics image"
-                />
-              </div>
 
-              <div className={styles.article_text}>
-                <h3>スナックむらむすび、始まります</h3>
-                <div className={styles.article_data}>
-                  <Link href="/">
-                    <a className={styles.article_category}>大鹿村</a>
-                  </Link>
-                  ／<p className={styles.article_timestamp}>20210816</p>
-                </div>
-                <div className={styles.article_links}>
-                  <div className={styles.access_counter}>12345</div>
-                  <Link href="/">
-                    <a className={styles.article_sns_link}>T</a>
-                  </Link>
-                  <div>
-                    <Link href="/">
-                      <a className={styles.article_user_link}>
-                        <p>むらむすびのスタッフ</p>
-                        <Image
-                          src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/スナックむらむすび、始まります_1.jpg"
-                          width={30}
-                          height={30}
-                          alt="topics image"
-                        />
-                      </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </article>
-        </section>
+      <main className={styles.main}>
+        {/* <div className={styles.top_container}>
+          <Image
+            src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/blog_topimage2.JPG"
+            width={1600}
+            height={900}
+            alt="top image"
+            className={styles.blog_image}
+          />
+        </div> */}
       </main>
-      <Footer />
+
+      <div className={styles.posts}>
+        {posts && posts.map((post) => <Post key={post.id} post={post} />)}
+      </div>
+
+      <Footer className={styles.footer_blog} />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  const posts = await getAllPostsData();
+  return {
+    props: { posts },
+    revalidate: 3,
+  };
 }
