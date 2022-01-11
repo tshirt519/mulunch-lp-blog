@@ -24,25 +24,7 @@ export default function Blog({ posts }) {
       <main className={styles.main}>
         <div className={styles.top_container}>
           <Image
-            src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/地域と人を繋いでいく。学生が仕掛ける「むらんち」が描く未来。_1.jpg"
-            width={1600}
-            height={900}
-            alt="top image"
-          />
-        </div>
-
-        <div className={styles.top_container}>
-          <Image
             src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/blog_topimage2.JPG"
-            width={1600}
-            height={900}
-            alt="top image"
-          />
-        </div>
-
-        <div className={styles.top_container}>
-          <Image
-            src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/blog_topimage1.JPG"
             width={1600}
             height={900}
             alt="top image"
