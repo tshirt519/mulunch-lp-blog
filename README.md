@@ -5,8 +5,8 @@ HTML, CSS, Javasctriptで作成したものをReact(Next.js)~~とTailwind CSS~~�
 ブログサイトはRuby on Railsで開発し、ReactとDjangoに書き換えているところです。  
   
 現在Vercelで公開しています。  
-ランディングページ -> https://mulunch-lp-nextjs.vercel.app/  
-ブログサイト -> https://mulunchblog2.herokuapp.com/posts/index  
+ランディングページ -> https://mulunch-lp-blog.vercel.app/  
+ブログサイト -> https://mulunch-lp-blog.vercel.app/blog  
     
 ## ランディングページ（2021年7月）  
 <img width="1680" alt="スクリーンショット 2021-07-31 15 02 24" src="https://user-images.githubusercontent.com/66429478/127730492-b1b3b043-7bfb-4554-a09f-c40d4883ce3a.png">
