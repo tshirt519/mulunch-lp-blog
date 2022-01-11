@@ -22,7 +22,7 @@ export default function Blog({ posts }) {
       <BlogHeader />
 
       <main className={styles.main}>
-        {/* <div className={styles.top_container}>
+        <div className={styles.top_container}>
           <Image
             src="https://mulunchimage.s3-ap-northeast-1.amazonaws.com/posts/blog_topimage2.JPG"
             width={1600}
@@ -30,7 +30,7 @@ export default function Blog({ posts }) {
             alt="top image"
             className={styles.blog_image}
           />
-        </div> */}
+        </div>
       </main>
 
       <div className={styles.posts}>
